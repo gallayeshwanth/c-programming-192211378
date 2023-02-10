@@ -1,0 +1,22 @@
+# c-programming-192211378
+#include <stdio.h>
+
+int main() {
+
+    int n, i, sum = 0;
+
+    printf("Enter the number upto which you want to sum the series: ");
+
+    scanf("%d", &n);
+
+    for (i = 1; i <= n; i++) {
+
+        sum += i;
+
+    }
+
+    printf("The sum of the series 1 to %d is: %d\n", n, sum);
+
+    return 0;
+
+}
